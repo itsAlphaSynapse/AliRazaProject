@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* login */
+.div01 {
+    background-color: rgba(254, 254, 254, 0.795);
+    position: absolute;
+    width: 350px;
+    height: 280px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 2px 20px rgb(115, 113, 113);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div02 {
+    background-color: rgba(254, 254, 254, 0.795);
+    position: absolute;
+    top: 72%;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 16px;
+    cursor: pointer;
+    box-shadow: 0px 2px 20px rgb(115, 113, 113);
+    transition: 0.5s;
+}
+
+.btnlogin:hover {
+    color: rgb(8, 20, 45);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btnlogin {
+    color: rgba(15, 38, 84, 0.747);
+    border: transparent;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.div03 {
+    margin-top: 90px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+    padding-right: 30px;
+    background-color: rgba(15, 38, 84, 0.747);
+    border: transparent;
+    outline: none;
+    caret-color: white;
+    color: white;
+}
+
+.div03::placeholder {
+    color: white;
+}
+
+.div04::placeholder {
+    color: white;
+}
+
+.div04 {
+    caret-color: white;
+    color: white;
+    outline: none;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 30px;
+    border: transparent;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgba(15, 38, 84, 0.747);
+}
+
+.div05>img {
+    width: 100%;
+    height: 88.5vh;
+}
+
+.logo {
+    border-radius: 50%;
+    background-color: rgba(15, 38, 84, 0.747);
+    width: 100px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.heading>h1 {
+    text-align: center;
+    height: 10vh;
+    position: relative;
+    color: white;
+    background-color: rgb(6, 17, 37);
+}
+
+/* Adminav1 */
+
+.nav01 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(15, 38, 84, 0.747);
+    color: white;
+}
+
+.nav02 {
+    margin-left: 45px;
+    top: 70%;
+}
+
+.nav03 {
+    margin-left: 1000px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.nav01>button:hover {
+    color: red;
+    background-color: rgba(15, 38, 84, 0.747);
+    transition: 0.2s;
+}
+
+/* Adminnav2 */
+
+.nav04 {
+    display: flex;
+    background-color: rgb(15, 38, 84);
+    color: white;
+    justify-content: space-around;
+    list-style: none;
+    height: 10vh;
+    line-height: 10vh;
+    cursor: pointer;
+}
+
+.nav04>li {
+    transition: 0.2s;
+}
+
+.nav04>li:hover {
+    border-bottom: 4px solid red;
+    color: rgb(255, 7, 7);
+}
+
+.main {
+    left: 0px;
+    width: 100vw;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.979);
+    box-shadow: 0px 0px 10px gray;
+    color: black;
+    display: block;
+}
+
+.inside {
+    border: 1px solid black;
+    padding: 25px 25px;
+    margin: 25px 8px 25px 8px;
+    display: flex;
+}
+
+.inside>span:nth-child(1) {
+    flex-grow: 0.2;
+}
+
+.inside>span:nth-child(2) {
+    flex-grow: 0.5;
+}
+
+/* image */
+
+.img {
+    width: 1260px;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: none;
+}
+
+/* .main{
+    left: 0px;
+    width: 100vw;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    color: black;
+    position: absolute;
+    display: none;
+  }
+  
+  .inside{
+    border: 1px solid black;
+    padding: 0px 10px;
+    margin: 10px;
+  }
+  
+  .skills{
+    margin-top: -100px;
+    margin-left: 20px;
+  }  */
+
+/* Managernav1 */
+
+.nav05 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(15, 38, 84, 0.747);
+    color: white;
+}
+
+.nav06 {
+    margin-left: 45px;
+}
+
+.nav07 {
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border: transparent;
+}
+
+.nav05>button:hover {
+    color: red;
+    background-color: rgba(15, 38, 84, 0.747);
+    transition: 0.2s;
+}
+
+/* MANAGERNAV2 */
+
+.nav08 {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(15, 38, 84);
+    height: 10vh;
+    line-height: 10vh;
+    color: rgb(255, 255, 255);
+    /* cursor: pointer; */
+}
+
+.nav08>li {
+    transition: 0.2s;
+}
+
+.nav08>li:hover {
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.img {
+    width: 1260px;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: none;
+}

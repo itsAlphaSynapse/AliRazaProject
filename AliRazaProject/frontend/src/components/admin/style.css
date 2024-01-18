@@ -1,0 +1,30 @@
+.adminbg {
+    width: 100%;
+    height: 0;
+    padding-top: 45.64563106796117%;
+    background: url(../pics/adminbg.png), rgba(0, 0, 0, 0.389);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    box-sizing: border-box;
+    position: absolute;
+}
+.managerbg {
+    width: 100%;
+    height: 0;
+    padding-top: 45.64563106796117%;
+    background: url(../pics/managerbg.png), rgba(0, 0, 0, 0.633);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.mainText {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    margin-top: 150px;
+    font-size: 100px;
+}
